@@ -20,7 +20,18 @@ const Footer: React.FC = () => {
 				<hr className="border-t-1 border-solid border-gray-500 opacity-25 w-72 sm:w-96 my-4" />
 				<p className="text-sm text-gray-800 dark:text-gray-400 flex items-center gap-2 flex-col sm:flex-row">
 					<span>
-						© {new Date().getFullYear()} All rights reserved -{" "}
+						Hosted by
+						<a
+							href="https://tgmgroup.org"
+							className="hover:text-blue-500 hover:underline transition-colors"
+						>
+							TGMGroup
+						</a>
+						.
+					</span>
+					<span className="mx-1 hidden sm:block">•</span>
+					<span>
+						Original © by
 						<a
 							href="https://isuru.info"
 							className="hover:text-blue-500 hover:underline transition-colors"
@@ -29,13 +40,6 @@ const Footer: React.FC = () => {
 						</a>
 					</span>
 					<span className="mx-1 hidden sm:block">•</span>
-					<span className="mx-1 flex flex-row gap-1 items-center">
-						Made with{" "}
-						<Heart
-							fill="#f44336"
-							className="w-4 h-4 text-red-500 animate-pulse"
-						/>{" "}
-					</span>
 				</p>
 			</div>
 		</footer>
