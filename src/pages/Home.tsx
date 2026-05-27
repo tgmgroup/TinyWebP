@@ -152,7 +152,7 @@ function Home() {
 			const url = URL.createObjectURL(content);
 			const a = document.createElement("a");
 			a.href = url;
-			a.download = "tinywebp-converted-images.zip";
+			a.download = "converted-webp-images.zip";
 			document.body.appendChild(a);
 			a.click();
 			document.body.removeChild(a);
@@ -214,10 +214,10 @@ function Home() {
 				>
 					<div className="absolute top-[175px] rotate-90 right-[-45.5px] text-center">
 						<Link
-							to="https://buymeacoffee.com/iamispra"
+							to="https://buymeacoffee.com/tgmgroup"
 							className={`text-sm text-white px-2 py-1 rounded-tr-lg rounded-tl-lg ${isDragging ? "bg-red-700" : "bg-red-700 sm:bg-gray-300 sm:dark:bg-gray-600 hover:bg-red-700 dark:hover:bg-red-800"}`}
 						>
-							Support TinyWebP
+							Support Us <Heart className="h-4 w-4 inline-block ml-1" />
 						</Link>
 					</div>
 					<div className="p-8">
