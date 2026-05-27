@@ -29,7 +29,7 @@ function How() {
 				<h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
 					How to Use TinyWebP
 				</h1>
-				<p className="text-sm">Author: TGMGroup</p>
+
 				<p className="text-sm mb-4">Updated on: 12th February 2025</p>
 
 				<p className="mb-4">
@@ -61,40 +61,6 @@ function How() {
 				<p>
 					Once the compression is complete, you can easily download the
 					compressed image directly to your device.
-				</p>
-
-				<h2 className="text-xl font-semibold mt-6 mb-2">
-					4. Watch the Tutorial Video
-				</h2>
-				<p>
-					If you prefer visual instructions, check out the tutorial video below:
-				</p>
-
-				{/* Embedding YouTube video */}
-				<div className="my-8 aspect-video">
-					<iframe
-						className="w-full h-full"
-						src="https://www.youtube.com/embed/JBz-vB2-Ykg" // Replace with your YouTube video ID
-						title="TinyWebP - Convert Images to WebP"
-						frameBorder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowFullScreen
-					></iframe>
-				</div>
-
-				<h2 className="text-xl font-semibold mt-6 mb-2">
-					5. Additional Information
-				</h2>
-				<p>
-					If you have any questions or need further assistance, feel free to
-					reach out to us via email at{" "}
-					<a
-						href="mailto:hello@tinywebp.app"
-						className="text-blue-600 dark:text-blue-400 underline"
-					>
-						hello@tinywebp.app
-					</a>
-					.
 				</p>
 			</div>
 

@@ -89,17 +89,6 @@ function Terms() {
 					We may update these terms from time to time. Continued use of TinyWebP
 					means you accept any modifications.
 				</p>
-
-				<p className="mt-6">
-					For questions, contact us at{" "}
-					<a
-						href="mailto:hello@tinywebp.app"
-						className="text-blue-600 dark:text-blue-400 underline"
-					>
-						hello@tinywebp.app
-					</a>
-					.
-				</p>
 			</div>
 
 			{/* Footer */}
